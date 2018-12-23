@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pictureAnimation"
+    android:oneshot="false"
+    >
+    <item android:drawable="@drawable/follow" android:duration="1000" />
+    <item android:drawable="@drawable/unfollow" android:duration="1000" />
+    <item android:drawable="@drawable/takeoff" android:duration="1000" />
+    <item android:drawable="@drawable/land" android:duration="1000" />
+    <item android:drawable="@drawable/left" android:duration="1000" />
+    <item android:drawable="@drawable/up" android:duration="1000" />
+    <item android:drawable="@drawable/camera" android:duration="1000" />
+
+</animation-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_wifi_connect"
+        android:tint="@color/light_green"
+        android:title="Connect"
+        android:icon="@mipmap/baseline_wifi_black_24"/>
+
+    <item android:id="@+id/nav_tutorial"
+        android:tint="@color/light_green"
+        android:title="Tutorial "
+        android:icon="@mipmap/tutorial"/>
+
+    <item android:id="@+id/nav_logout"
+        android:tint="@color/light_green"
+        android:title="Log Out"
+        android:icon="@mipmap/baseline_perm_identity_black_24"/>
+
+</menu>

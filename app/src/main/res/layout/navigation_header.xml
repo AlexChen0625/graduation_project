@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <ImageView
+        android:tint="@color/light_green"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="4"
+        android:src="@drawable/baseline_account_circle_24" />
+    <TextView
+        android:text="Header Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:id="@+id/userName"
+        android:textColor="@color/light_green"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
